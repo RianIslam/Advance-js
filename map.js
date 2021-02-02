@@ -14,5 +14,7 @@
 
 // const result = num.map(x => x*x);
 
-const result = num.filter(x=>x>59)
-console.log(result);
+// const result = num.filter(x=>x>59)
+
+const isThere = num.find (x => x>59);
+console.log(isThere);
